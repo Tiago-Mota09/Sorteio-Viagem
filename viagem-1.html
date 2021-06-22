@@ -1,0 +1,41 @@
+ <!doctype html>
+
+<html lang="pt-br">
+	<head>
+		<title>Sorteie sua próxima viagem</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="viagem.css">
+		<script src="viagem.js"></script>
+	</head>
+	<body>
+		<div class="corpo">
+		<h1>Sorteie sua próxima viagem</h1>
+		Clique numa das cartas a seguir para descobrir qual será sua próxima viagem.
+		<div id="areaCartas">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(1)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(2)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(3)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(4)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(5)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(6)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(7)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(8)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(9)"  onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(10)" onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(11)" onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+			<img src="imgs/verso2.png" class="cartas" onclick="Viagem(12)" onmouseover="Destaca(this, 1)" onmouseout="Destaca(this, 0)">
+		</div>
+	</div>
+	<div class="foto">
+		<hr>
+		<div id="resultado"></div>
+		<script>
+			//Preencheu as cartas de viagens de viagens e os textos
+			Preencher(cartas, textos)
+			// Randomizar as cartas
+			Randomizar(cartas)
+		</script>
+		</div>
+	</body>
+</html>
+
